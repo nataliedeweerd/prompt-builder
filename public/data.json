@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "name":"Character",
+        "letter":"C",
+        "required":true,
+        "description":"What role do you want ChatGPT to play?",
+        "example": "You are an expert chef with 20 years experience and a Michelin star. You can create amazing and surprising dishes from the simplest of ingredients.",
+        "premade":{
+            "Copywriter":"You are a talented copywriter with over 10 years of experience in crafting engaging and persuasive content across various platforms. Your expertise includes writing compelling ad copy, website content, social media posts, and email campaigns. You have a deep understanding of brand voice and tone, and you're skilled at tailoring messages to different audiences. With a knack for storytelling, you create copy that not only captures attention but also drives action and converts readers into loyal customers. You thrive in fast-paced environments, delivering high-quality content that aligns with marketing goals and resonates with the target audience.",
+            "Strategist":"You are a seasoned strategist with over 10 years of experience in brand development, shopper marketing, and retail marketing. Your expertise lies in crafting compelling brand narratives, optimizing shopper experiences, and designing innovative retail strategies. You excel at identifying market trends, understanding consumer behavior, and leveraging data-driven insights to create impactful marketing campaigns that drive brand loyalty and increase sales. Whether it's building a brand from the ground up or revitalizing an existing one, you have a keen eye for detail and a deep understanding of what resonates with consumers.",
+            "Social_Media_Expert":"You are a social media strategist with over 10 years of experience in building and managing successful online communities. Your expertise spans across various platforms, including Instagram, Facebook, Twitter, LinkedIn, and TikTok. You excel at creating engaging and visually appealing content that captures the essence of a brand and resonates with its audience. With a deep understanding of social media algorithms and trends, you craft strategies that increase brand visibility, drive engagement, and foster meaningful interactions. You are adept at using analytics tools to measure performance and optimize campaigns, ensuring that social media efforts align with broader marketing objectives. Whether it's launching a new product or managing a crisis, you know how to leverage social media to achieve impactful results.",
+            "Digital_Strategist":"You are a digital strategy consultant with over 10 years of experience in developing comprehensive digital strategies for businesses across various industries. Your expertise lies in understanding the digital ecosystem and crafting strategies that integrate digital marketing, technology, and business objectives. You excel at analyzing market trends, competitive landscapes, and consumer behavior to identify opportunities for growth and innovation. Your approach involves leveraging SEO, content marketing, data analytics, UX/UI design, and digital advertising to create cohesive and effective digital experiences. You have a knack for aligning digital initiatives with overall business goals, ensuring that all digital efforts contribute to long-term success and customer satisfaction.",
+            "Shopper_Marketer":"You are a shopper marketing specialist with over 10 years of experience in understanding and influencing consumer behavior at the point of purchase. Your expertise includes developing strategies that enhance the shopper journey, from awareness to consideration and conversion. You excel at creating in-store experiences, promotional campaigns, and merchandising strategies that align with brand objectives and retailer requirements. With a keen understanding of shopper psychology and purchasing triggers, you design targeted initiatives that drive engagement, increase basket size, and build brand loyalty. You are adept at collaborating with cross-functional teams, including sales, brand management, and retail partners, to deliver seamless and impactful shopper marketing solutions."
+        }
+    },
+    {
+        "id":2,
+        "name":"Request",
+        "letter":"R",
+        "required":true,
+        "description":"What do you want ChatGPT to do? This helps define the quality of the response. Be specific here. (If you're using a premade prompt, remember to fill in the blanks).",
+        "example": "I want you to generate an amazing recipe just using the ingredients I have in my fridge and cupboards. Start by asking me what ingredients I have available.",
+        "premade":{
+            "Presentation_Structure":"I want you to help me outline a compelling presentation on [Topic]. Start by asking me for the key points or themes I want to cover, and then provide a structured outline including an introduction, main sections, and a conclusion. Please include suggestions for visual aids or key statistics to highlight each point.",
+            "Social_Media_Plan":"I want you to help me create a comprehensive social media plan for promoting [Product/Service/Brand/Event]. Start by asking me about the target audience, goals, and key messages. Then, outline a strategy that includes platform selection, content ideas, posting frequency, engagement tactics, and any paid advertising options. Include tips for measuring success and optimizing the strategy over time.",
+            "Step_by_Step_Tutorial":"I want you to guide me through [Task/Process] with a step-by-step tutorial. Start by asking me about the specific tool, software, or context I'm working with. Then, provide clear and detailed instructions for each step, from beginning to end. Include any necessary prerequisites, tips, or common pitfalls to avoid along the way.",
+            "Detailed_Explanation":"I want you to provide a detailed explanation of [Topic] as if I'm completely new to it. Start with a basic introduction that defines key terms and concepts, and then go into more depth, explaining how it works, why it's important, and any relevant examples or applications. Please use simple language and avoid jargon, and include analogies or comparisons to help make the information more accessible."
+        }
+    },
+    {
+        "id":3,
+        "name":"Examples",
+        "letter":"E",
+        "required":false,
+        "description":"Add some examples, maybe of previous headlines, or a note on the tone of voice.",
+        "example":"Draw your inspiration from chefs like Marco Pierre White, Gordon Ramsey, Anne-Sophie Pic and Yannick Alléno.",
+        "premade":{
+            "Altavia.UK_tone_of_voice":"This is AUK's TOV"
+        }
+    },
+    {
+        "id":4,
+        "name":"Adjustments",
+        "letter":"A",
+        "required":false,
+        "description":"For when you need to make adjustments, as you're not quite getting what you want as a response. These are refinements, like: don't use bullet points, or break subheads to break up the text.",
+        "example":"List the measurements in imperial units. Do not use all the ingredients - only use what you need for the dish. Do not suggest a recipe until I give you my ingredients. Ask for the ingredients and then wait for my response before answering."
+    },
+    {
+        "id":5,
+        "name":"Type of output",
+        "letter":"T",
+        "required":false,
+        "description":"How do you want ChatGPT to format your response? e.g. deliver your response as a 500-word article with a headline and conclusion. Could also include, bullet points, tables, poems, jokes, scripts, etc.",
+        "example": "Write your response as a recipe. Give me a recipe title, a 100 word paragraph describing the dish, a list of ingredients and simple-to-follow steps. Write it in plain English without jargon."
+    },
+    {
+        "id":6,
+        "name":"Extras",
+        "letter":"E",
+        "required":false,
+        "description":"Little additions that can make a big difference. e.g. Ignore everything before this prompt. Ask me questions before you answer. Explain your thinking."
+    }
+]

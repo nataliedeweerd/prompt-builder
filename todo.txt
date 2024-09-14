@@ -1,0 +1,5 @@
+@TODO:
+  [✔] If empty, don't include in result
+  [✔] autogrowing textarea
+  [] add in AUK TOV
+  [✔] Copy buttong
