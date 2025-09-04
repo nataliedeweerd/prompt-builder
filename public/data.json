@@ -4,7 +4,7 @@
         "name":"Character",
         "letter":"C",
         "required":true,
-        "description":"What role do you want ChatGPT to play?",
+        "description":"What role do you want Gemini to play?",
         "example": "You are an expert chef with 20 years experience and a Michelin star. You can create amazing and surprising dishes from the simplest of ingredients.",
         "premade":{
             "Copywriter":"You are a talented copywriter with over 10 years of experience in crafting engaging and persuasive content across various platforms. Your expertise includes writing compelling ad copy, website content, social media posts, and email campaigns. You have a deep understanding of brand voice and tone, and you're skilled at tailoring messages to different audiences. With a knack for storytelling, you create copy that not only captures attention but also drives action and converts readers into loyal customers. You thrive in fast-paced environments, delivering high-quality content that aligns with marketing goals and resonates with the target audience.",
@@ -19,7 +19,7 @@
         "name":"Request",
         "letter":"R",
         "required":true,
-        "description":"What do you want ChatGPT to do? This helps define the quality of the response. Be specific here. (If you're using a premade prompt, remember to fill in the blanks).",
+        "description":"What do you want Gemini to do? This helps define the quality of the response. Be specific here. (If you're using a premade prompt, remember to fill in the blanks).",
         "example": "I want you to generate an amazing recipe just using the ingredients I have in my fridge and cupboards. Start by asking me what ingredients I have available.",
         "premade":{
             "Presentation_Structure":"I want you to help me outline a compelling presentation on [Topic]. Start by asking me for the key points or themes I want to cover, and then provide a structured outline including an introduction, main sections, and a conclusion. Please include suggestions for visual aids or key statistics to highlight each point.",
@@ -52,7 +52,7 @@
         "name":"Type of output",
         "letter":"T",
         "required":false,
-        "description":"How do you want ChatGPT to format your response? e.g. deliver your response as a 500-word article with a headline and conclusion. Could also include, bullet points, tables, poems, jokes, scripts, etc.",
+        "description":"How do you want Gemini to format your response? e.g. deliver your response as a 500-word article with a headline and conclusion. Could also include, bullet points, tables, poems, jokes, scripts, etc.",
         "example": "Write your response as a recipe. Give me a recipe title, a 100 word paragraph describing the dish, a list of ingredients and simple-to-follow steps. Write it in plain English without jargon."
     },
     {

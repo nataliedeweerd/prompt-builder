@@ -1,15 +1,15 @@
 <template>
   <div class="container">
     <div class="row col-sm-12">
-      <h1>CREATE Prompt Builder for ChatGPT</h1>
+      <h1>CREATE Prompt Builder for Gemini</h1>
       <h5>CREATE is a framework created by Dave Birss</h5>
       <p>
-        Imagine ChatGPT is an actor. You need to let it know its role and
+        Imagine Gemini is an actor. You need to let it know its role and
         motivation, to really narrow down the response you get.
       </p>
       <p>
         To use this tool, fill in as much as you can into the text fields below,
-        click "Generate Prompt", then copy this into your ChatGPT.
+        click "Generate Prompt", then copy this into your Gemini.
       </p>
       <div id="app">
         <!-- Your Vue component template goes here -->
